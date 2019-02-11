@@ -1,2 +1,2 @@
 # Tetris
-콘솔 테트리스 게임
+console tetris game
