@@ -284,13 +284,11 @@ int main(int argc, char *argv[]) {
       break; // drop the block
     default: cout << "unknown key!" << endl;
     }
-
     delete tempBlk;
     tempBlk = iScreen->clip(top, left, top + currBlk->get_dy(), left + currBlk->get_dx());
     delete tempBlk2;
     tempBlk2 = tempBlk->add(currBlk);
-    
-	if (tempBlk2->anyGreaterThan(1)) {
+    if (tempBlk2->anyGreaterThan(1)) {
       switch (key) {
       case 'a': left++; break; // undo: move right
       case 'd': left--; break; // undo: move left
