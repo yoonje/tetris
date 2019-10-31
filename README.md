@@ -11,5 +11,5 @@ $ ./Main.exe
 You can use the space bar, w,a,s,d key on your keyboard.
 
 # Action
-<img src="images/run1.png" width="100%" height="100%">
-<img src="images/run2.png" width="100%" height="100%">
+<img src="images/run1.png" width="60%" height="60%">
+<img src="images/run2.png" width="60%" height="60%">
